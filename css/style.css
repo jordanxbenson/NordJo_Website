@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+nav a:hover {
+    background: whitesmoke;
+    color: rgb(158, 129, 25);
+}
+
+.logo a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-style:italic ;
+  
+  }
+  
+.logo a:hover {
+      background: whitesmoke;
+      color: black;
+  }
+  
+
+header {
+    width: 100%;
+    height: 125px;
+    background: rgba(0, 0, 0, 0.207);
+    color: black; 
+    position: fixed;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+    text-align: left;
+    line-height: 60px;
+    font-size: 20px;
+    padding: 30px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+nav{
+    list-style: none; /* Remove default list styles */
+    line-height: 100px;
+    float: right;
+    
+}
+
+nav ul li {
+
+    display: inline-block; /* Display items horizontally */
+    margin-left: 10px; /* Add space between items */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 10px;
+    margin: 0 1px;
+}
+.banner2 {
+    background-image: url(brain.png);
+    background-size: cover;
+    background-position: center;
+    top: 125px;
+    height: 75vh;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.banner2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgb(128, 128, 128);
+    opacity: .2;
+    z-index: -1;
+}
+
+.banner2 h2{
+padding-top: 10%;
+font-size: 80px;
+color: rgb(158, 129, 25);
+border: 0cap;
+-webkit-text-stroke: 2px black;
+}
+.content {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: white;
+    top: 600px;
+}
